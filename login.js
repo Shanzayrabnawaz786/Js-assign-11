@@ -40,7 +40,7 @@ loginBtn.addEventListener("click", function (event) {
       
       alert("Error: " + errorMessage);
     });
-  console.log("working ");
+  // console.log("working ");
   
 });
 

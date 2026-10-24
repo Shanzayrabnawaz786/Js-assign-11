@@ -19,7 +19,7 @@ h1 {
     flex-direction: column;
     border-radius: 25px;
     padding: 35px;
-    width: 15rem;
+    width: 18rem;
     margin-top: 50px;
     background-color: #90909066;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
@@ -29,14 +29,13 @@ input[type="text"] {
 
     padding: 8px;
     width: 290px;
-    font-size: 18px;
+    font-size: 19px;
 
 }
 
 #pass {
-
-    padding: 8px;
-    width: 199px;
+    padding: 10px;
+    width:260px;
     border-radius: 25px;
     outline: none;
     border: 1px solid #909090;
@@ -45,7 +44,7 @@ input[type="text"] {
 #email {
 
     padding: 8px;
-    width: 199px;
+    width:260px;
     border-radius: 25px;
     outline: none;
     border: 1px solid #909090;
@@ -54,7 +53,7 @@ input[type="text"] {
 #usrname {
 
     padding: 8px;
-    width: 200px;
+    width: 260px;
     border-radius: 25px;
     outline: none;
     border: 1px solid #909090;
@@ -122,7 +121,7 @@ span {
     font-weight: 600px;
     border-radius: 1000px;
     padding: 12px;
-    width: 90px;
+    width: 100px;
     height: 39px;
     cursor: pointer;
     border: none;
@@ -168,7 +167,6 @@ li {
     font-size: large;
     color: green;
 }
-
 .btn-del {
     position: relative;
     right: 0px;

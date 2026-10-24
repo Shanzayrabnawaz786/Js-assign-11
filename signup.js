@@ -18,12 +18,11 @@ import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com
   const app = initializeApp(firebaseConfig);
   const analytics = getAnalytics(app);  
   var signupbtn=document.getElementById("signupBtn");
-  var loginbtn=document.getElementById("loginBtn")
+  var loginbtn=document.getElementById("loginBtn");
   const auth = getAuth();
   
   signupbtn.addEventListener("click", function (event) {
     event.preventDefault();
-    
    var email=document.getElementById("email").value;
    var pass=document.getElementById("pass").value;
 
@@ -35,9 +34,7 @@ createUserWithEmailAndPassword(auth, email, pass)
       window.location.href="login.html";
     // ...
     
-      console.log("hi");
-      
-
+      // console.log("hi");
   })
   .catch((error) => {
     const errorCode = error.code;
@@ -45,8 +42,7 @@ createUserWithEmailAndPassword(auth, email, pass)
     alert("Error",errorMessage)
     // ...
   });
-   
-console.log("work start");
+// console.log("work start");
 
 
 })
@@ -58,7 +54,7 @@ if(loginbtn){
   loginbtn.addEventListener("click", function (event) {
     event.preventDefault()
     window.location.href = "login.html";
-    console.log("working");
+    // console.log("working");
     
   });
 }
